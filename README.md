@@ -1,4 +1,4 @@
-DATI AUTO per Assetto Corsa - beta
+DATI AUTO App per Assetto Corsa
 ================
 PREMESSA: Probabilmente esistono già applicazioni simili (e anche migliori) ma ho creato questa app perchè avevo l'esigenza di avere il cruscotto auto su uno o più dispositivi connessi nella stessa rete (diversi dal pc sul quale stavo giocando)
 
