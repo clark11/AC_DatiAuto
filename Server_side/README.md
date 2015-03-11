@@ -1,4 +1,4 @@
-DATI AUTO per Assetto Corsa - beta
+DATI AUTO App per Assetto Corsa
 ================
 
 # Server Side
