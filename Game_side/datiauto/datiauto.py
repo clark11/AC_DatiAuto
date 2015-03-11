@@ -21,7 +21,7 @@ def acMain(ac_version):
     appWindow = ac.newApp("datiauto")
     ac.setSize(appWindow, 200, 200)
     ac.log("Welcome to DatiAuto")
-    l_lapcount = ac.addLabel(appWindow, "ituoigirelli: 0");
+    l_lapcount = ac.addLabel(appWindow, "giri effettuati: 0");
     ac.setPosition(l_lapcount, 3, 30)
     return "datiauto"
 def acUpdate(deltaT):
