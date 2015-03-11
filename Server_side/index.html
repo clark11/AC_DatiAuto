@@ -52,7 +52,7 @@
                     calcrpm(rpm);
                     // console.log(data);
                 });
-                function calcrpm(rpm){  //UNA VERA MERDATA >>>DA RIVEDERE COMPLETAMENTE
+                function calcrpm(rpm){  //DA RIVEDERE COMPLETAMENTE
                     // alert(rpm);
                     if (rpm > 7900){
                         $('#progressbar').progressbar('setPosition', 100);
@@ -104,17 +104,7 @@
                         $('#progressbar').progressbar('setPosition', 10);
                     }
                 }
-                function startStream() {
-                    var data = 'ciaoo';
-                    var canvas = $("#canvas");
-                    var ctx = canvas.get()[0].getContext('2d');
-                    socket.emit('start-stream', data);
-                    $('.start').hide();
-                }
-                function stopStreaming() {
-                    socket.emit('stop-stream');
-                    $('.start').hide();
-                }
+               
   
             })
   
