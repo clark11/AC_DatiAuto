@@ -13,7 +13,6 @@ var escapeshellarg = require('escapeshellarg');
 var spawn = require('child_process').spawn;
 var proc;
   var exec = require('child_process').execFile;
-app.use('/', express.static(path.join(__dirname, 'stream')));
 
 
 app.get('/', function(req, res) {
